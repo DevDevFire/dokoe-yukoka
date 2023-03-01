@@ -1,4 +1,4 @@
 #  dokoe-yukoka React App
 
-GitHub Pages 
+GitHub Pages  
 https://devdevfire.github.io/dokoe-yukoka/
