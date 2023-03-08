@@ -1,6 +1,6 @@
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import "./styles.css";
-import jsonData from './station_list_tokyo.json';
+import jsonDataList from './station_list_tokyo.json';
 
 import Button  from "./components/Button";
 import TagWidget  from "./components/TagWidget";
@@ -8,7 +8,7 @@ import TagWidget  from "./components/TagWidget";
 function App() {
 
     useEffect(() => {
-        setStationList(jsonData);
+        setStationList(jsonDataList);
     }, []);
 
     const [station, setStation] = useState('スタートを押してね。');
@@ -53,9 +53,9 @@ function App() {
             <div className="container">
                 <div className="body-wrapper">
                     <div className="body-center">
-                        <p className="station-name">
+                        <span className="station-name">
                             {station == 'スタートを押してね。' ? station : `${station.station_name}駅`}
-                        </p>
+                        </span>
                         {urlList && <TagWidget urlList={urlList}/>} 
                     </div>
                 </div>
