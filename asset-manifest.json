@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dokoe-yukoka/static/css/main.8995a5d4.css",
-    "main.js": "/dokoe-yukoka/static/js/main.dd9631ed.js",
+    "main.css": "/dokoe-yukoka/static/css/main.c34eb65a.css",
+    "main.js": "/dokoe-yukoka/static/js/main.5cd1209e.js",
     "index.html": "/dokoe-yukoka/index.html",
-    "main.8995a5d4.css.map": "/dokoe-yukoka/static/css/main.8995a5d4.css.map",
-    "main.dd9631ed.js.map": "/dokoe-yukoka/static/js/main.dd9631ed.js.map"
+    "main.c34eb65a.css.map": "/dokoe-yukoka/static/css/main.c34eb65a.css.map",
+    "main.5cd1209e.js.map": "/dokoe-yukoka/static/js/main.5cd1209e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8995a5d4.css",
-    "static/js/main.dd9631ed.js"
+    "static/css/main.c34eb65a.css",
+    "static/js/main.5cd1209e.js"
   ]
 }
