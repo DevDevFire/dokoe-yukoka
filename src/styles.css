@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+}
+header {
+    display: grid;
+    place-items: center;
+    height: 15vh;
+    background-color: #02b9f5;
+    color: #fff;
+}
+
+.container {
+    height: 85vh;
+    display: grid;
+}
+
+.body-wrapper {
+    height: 60vh;
+    display: grid;
+    place-items: center;
+}
+
+.body-center {
+    display: grid;
+    place-items: center;
+}
+
+.footer-wrapper {
+    display: grid;
+    justify-items: center;
+    height: 15vh;
+}
+
+.station-name {
+    font-size: 7vw;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 0;
+    height: fit-content;
+    width: 280px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #ff5800;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    border-bottom: 8px solid #de3b01;
+    position: relative;
+    bottom: 0;
+  }
+  .btn:active {
+    border: 0;
+    bottom: -2px;
+  }
+  .btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  .btn-icon {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+.after-icon {
+    margin-left: 8px;
+    font-size: 2em;
+}
+
+ul {
+    display: flex;
+    flex-wrap : wrap;
+    padding-left: 0;
+    list-style-type: none;
+}
+li {
+    margin-right: 8px;
+}
+
+.widget {
+    display: grid;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px 0 rgb(100 100 100 / 12%), 0px 0px 12px 0px rgb(100 100 100 / 4%);
+    background: #fff;
+    width: 80%;
+}
+.widgettitle {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 12px 20px 7px;
+    color: #333333;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #efefef;
+    border-radius: 8px 8px 0 0;
+}
+.tagcloud {
+    padding: 8px 16px;
+}
+
+.hashtag-area {
+    text-align: center;
+}
+.hashtag{
+	display: inline-block;
+    margin-top: 5px;
+	padding: .6em;
+	line-height: 0.5;
+	text-decoration: none;
+    color: #08131a;
+	background-color: #fff;
+	border: 1px solid rgba(108, 111, 113, 0.322);
+    border-radius: 5px;
+}
+.hashtag:before {
+	content: "#";	
+}
+.hashtag:hover {
+    border: 1px solid rgba(108, 111, 113, 0.8);
+}
+
+.loading {
+    position: fixed; /* フィックスドポジションを使用して画面の中央に配置 */
+    top: 50%; /* 上端から中央に移動 */
+    left: 50%; /* 左端から中央に移動 */
+    transform: translate(-50%, -50%); /* 中央に配置 */
+    background-color: rgba(255, 255, 255, 0.8); /* 背景色を設定（任意） */
+    z-index: 9999; /* スピナーが他の要素の上に表示されるようにz-indexを設定（必要に応じて調整） */
+}
